@@ -16,6 +16,9 @@
 		25AAB60D282903670076ECC7 /* CustomKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB60C282903670076ECC7 /* CustomKeyboardTests.swift */; };
 		25AAB617282903670076ECC7 /* CustomKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB616282903670076ECC7 /* CustomKeyboardUITests.swift */; };
 		25AAB619282903670076ECC7 /* CustomKeyboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB618282903670076ECC7 /* CustomKeyboardUITestsLaunchTests.swift */; };
+		25AAB6262829042D0076ECC7 /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25AAB6252829042D0076ECC7 /* Keyboard.xib */; };
+		25AAB62828290DA30076ECC7 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB62728290DA30076ECC7 /* Keyboard.swift */; };
+		25AAB62A28296B830076ECC7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AAB62928296B830076ECC7 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		25AAB612282903670076ECC7 /* CustomKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AAB616282903670076ECC7 /* CustomKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboardUITests.swift; sourceTree = "<group>"; };
 		25AAB618282903670076ECC7 /* CustomKeyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25AAB6252829042D0076ECC7 /* Keyboard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
+		25AAB62728290DA30076ECC7 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		25AAB62928296B830076ECC7 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				25AAB5F7282903660076ECC7 /* SceneDelegate.swift */,
 				25AAB5F9282903660076ECC7 /* ViewController.swift */,
 				25AAB5FB282903660076ECC7 /* Main.storyboard */,
+				25AAB62928296B830076ECC7 /* CustomButton.swift */,
+				25AAB6252829042D0076ECC7 /* Keyboard.xib */,
+				25AAB62728290DA30076ECC7 /* Keyboard.swift */,
 				25AAB5FE282903660076ECC7 /* Assets.xcassets */,
 				25AAB600282903660076ECC7 /* LaunchScreen.storyboard */,
 				25AAB603282903660076ECC7 /* Info.plist */,
@@ -233,6 +242,7 @@
 			files = (
 				25AAB602282903660076ECC7 /* LaunchScreen.storyboard in Resources */,
 				25AAB5FF282903660076ECC7 /* Assets.xcassets in Resources */,
+				25AAB6262829042D0076ECC7 /* Keyboard.xib in Resources */,
 				25AAB5FD282903660076ECC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +270,9 @@
 			files = (
 				25AAB5FA282903660076ECC7 /* ViewController.swift in Sources */,
 				25AAB5F6282903660076ECC7 /* AppDelegate.swift in Sources */,
+				25AAB62828290DA30076ECC7 /* Keyboard.swift in Sources */,
 				25AAB5F8282903660076ECC7 /* SceneDelegate.swift in Sources */,
+				25AAB62A28296B830076ECC7 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
